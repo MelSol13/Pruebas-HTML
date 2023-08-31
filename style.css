@@ -1,0 +1,130 @@
+/*
+Aqui van los estilos
+
+Selectores Basicos
+elementos{
+    propiedad: valor;
+}
+.clase{
+    propiedad: valor;
+}
+#id {
+    propiedad: valor;
+}
+
+*/
+
+h2{
+    color: red;
+    text-decoration:underline;
+}
+
+.azul{
+    color:blue;
+}
+
+.italica {
+    font-style: italic;
+}
+
+#titulo_h1 {
+    font-size: 100px;
+    color: purple
+}
+
+.contenedor p {  /*selecciono elemento p dentro clase contenedor*/
+    text-transform: uppercase;
+}
+
+.contenedor > h4 { /* seleccionamos la etiqueta h4 directa de 
+    contenedor*/
+    color: green;
+
+}
+
+h6.azul{ /*deben de cumplirse ambos selectores*/
+    color: yellow;
+}
+
+input, textarea, select {
+    border: 3px solid magenta;
+}
+
+.colorin{
+    color: #B69388; /*hex rgb nombre*/
+    background-color: gray;
+}
+
+.texto {
+    text-align: center; /*podemos alinear left, right, center, 
+    justify*/
+    text-decoration: underline; /*line-through, none, overline*/
+    font-style: italic; /*italic, normal*/
+    font-weight: bold;
+    font-size: 30px; /*px pt em*/
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.tamano{
+    background-color: darkslateblue;
+    width: 700px;
+    height: 100px;
+}
+
+.box-model {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+
+    margin: 10px; /*márgen especifico: margin-top,
+    margin-right, margin-bottom, margin-left*/
+
+    border: 2px solid black;
+
+    padding: 20px;/*padding-top, padding-right,padding-bottom,
+    padding-left*/
+}
+
+.inline {
+    display: inline; /*me despliega los elementos en una sola 
+    linea *PERO* no puedo dar tamaño*/
+}
+
+.block {
+    display: block; /* Me despliega mi elemento como bloquea, 
+    bloquetodo lo que haber a mi alrededor*/
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+#div1 {
+    width: 250px;
+    height: 150px;
+    border: 1px;
+    background-color: purple
+
+}
+
+#div2 {
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: green
+}
+
+#div3{
+    width: 250px;
+    height: 80px;
+    border: 1px solid black;
+    background-color: red
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}

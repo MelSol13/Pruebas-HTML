@@ -1,0 +1,139 @@
+<!DOCTYPE html> <!-- Indica que la version que usamos es HTML5 -->
+<html lang="es"> <!-- indica el idioma -->
+<head>
+    <meta charset="UTF-8"> <!--abecedario latino-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas con HTMl</title>
+    <link rel="stylesheet" href="./style.css"> <!--Ligamos la hoja de estilos-->
+</head>
+<body>
+    <h1 id="titulo_h1"> Titulo h1</h1>
+    <h2>H2</h2>
+    <h3 class="azul italica">H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6 class="azul">H6</h6>
+
+    <p>Párrafo, Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora explicabo doloribus dolorem aut aspernatur quod corporis voluptate quas nisi est nostrum impedit, asperiores rem, possimus sed maxime beatae quam consequatur.</p>
+
+    <a href="http://google.com">Enlace</a> <!--anchor etiqueta-->
+
+    <div class="contenedor">
+        <h4> Este es un hijo</h4>
+        <p>Este es un párrafo hijo</p>
+        <div> <!--Hijo-->
+            <h4>Este es un nieto</h4>
+        </div>
+    </div>
+    
+    <h2>Lista desordenada</h2>
+    <ul>
+        <li>Javascript</li>
+        <li>Python</li>
+        <li>C#</li>
+    </ul>
+
+    <h2>Lista ordenada</h2>
+    <ol>
+        <li>Ver series</li>
+        <li>Dormir</li>
+        <li>Escuchar musica</li>
+    </ol>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Encabezado 1</th>
+                <th>Encabezado 2</th>
+                <th>Encabezado 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Columna 1.1</td>
+                <td>Columna 1.2</td>
+                <td>Columna 1.3</td>
+            </tr>
+            <tr>
+                <td>Columna 2.1</td>
+                <td>Coulmna 2.2</td>
+                <td>Columna 2.3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Pie de página 1</th>
+                <th>Pie de página 2</th>
+                <th>Pie de página 3</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <img src="img/gatito-m.jpg.webp" alt="Imagen de Gatito"> <!-- agregar imagen-->
+
+    <div>
+        <p>Párrafo # 2</p>
+    </div>
+
+    <form action="/accion" method="post">
+
+        <div>
+            <label>Nombre:</label>
+            <input type="text" name="input_texto">
+            <input type="number" name="input_numeral"> 
+            <input type="password" name="input_contra"> 
+            <input type="date" name="input_fecha">
+            <input type="email" name="input_email">
+        </div>
+        <div>
+            <input type="radio" name="estado_civil" value="valor_casado" id="id_casado">
+            <label for="id_casado">Casado</label> <br>
+            <input type="radio" name="estado_civil" value="valor_soltero" id="id_soltero">
+            <label for="id_soltero">Soltero</label>
+        </div>
+        <div>
+            <input type="checkbox" name="mayor_edad" id="id_mayor_edad">
+            <label for="id_mayor_edad">¿Es mayor de edad?</label>
+        </div>
+        <div>
+            <label>¿Cuál es tu lenguaje de programación preferido</label>
+            <select>
+                <option>Javascript</option>
+                <option>Python</option>
+                <option>C#</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="biografia" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar formulario">
+        </div>
+    </form>
+    <h5 class="colorin">Estas son las propiedades de color</h5>
+    <p class="texto">
+        Estas son las propiedades de texto
+        <span class= "overline">texto</span>
+        <strong>negritas</strong>
+    </p>
+    <div class="tamano">
+        Estas son las propiedades de tamaño
+    </div>
+
+    <div class="box-model">
+        Esta es mi caja
+    </div>
+
+    <h2 class="inline">Este es un ejemplo 1</h2>
+    <h2 class="inline">Este es un ejemplo 2</h2>
+
+    <input class="block" type="text" placeholder="Nombre">
+    <input class="block" type="password" placeholder="password">
+
+    <div id="div1" class="inline-block"></div>
+    <div id="div2"class="inline-block"></div>
+    <div id="div3"class="inline-block"></div>
+
+
+</body>
+</html>
